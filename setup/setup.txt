@@ -48,7 +48,7 @@ sudo systemctl enable mariadb
 sudo systemctl enable apache2
 
 -Restart Apache
-sudo service apache2 start 
+sudo service apache2 restart 
 
 -Verify Apache2 is running 
 sudo service apache2 status
